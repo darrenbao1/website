@@ -1,0 +1,18 @@
+.memberCardContainer {
+    width:200px;
+    height:300px;
+}
+.profilePicture {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+.name {
+    text-align: center;
+}
+.role{
+    text-align: center;
+}
+.memberCardContainer:hover{
+    color: orange;
+}

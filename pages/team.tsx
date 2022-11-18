@@ -1,0 +1,40 @@
+import { teamMember } from "../types/interfaces";
+import styles from "../styles/team.module.css";
+import { TeamMemberCard } from "../components/TeamMemberCard";
+export default function team() {
+    const teamMembers: teamMember[] = [
+        {
+            name: "@211lp",
+            role: "Founder",
+            imageUrl: "https://pbs.twimg.com/profile_images/1526410355152302080/KmEp1Myd_400x400.jpg",
+            twitterLink: "https://twitter.com/211lp"
+        },
+        {
+            name: "@Jinath0n",
+            role: "Art Director",
+            imageUrl: "https://pbs.twimg.com/profile_images/1527712554952208384/zPSFphKz_400x400.jpg",
+            twitterLink: "https://twitter.com/Jinath0n"
+        },
+        {
+            name: "@KahiEth",
+            role: "Tech Lead",
+            imageUrl: "https://pbs.twimg.com/profile_images/1531689105104326657/a349PPe5_400x400.jpg",
+            twitterLink: "https://twitter.com/KahiEth"
+        },
+        {
+            name: "@DbaoEth",
+            role: "Software Engineer",
+            imageUrl:"https://pbs.twimg.com/profile_images/1531205481494024194/yU0aSM0S_400x400.jpg",
+            twitterLink: "https://twitter.com/DbaoEth"
+        },
+
+    ]
+    return (<>  <div className={styles.cardContainer}>
+                {teamMembers.map((member,index) => 
+                    <TeamMemberCard member={member} key={index}/>
+                ) }
+                </div> 
+                <picture><img style={{opacity:"0.5",zIndex:"1",position:"fixed"}} className="backgroundImage" src="./backgroundImage.png" alt=""></img></picture>
+            </>
+        )
+}

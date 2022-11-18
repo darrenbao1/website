@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -23,4 +26,16 @@ a {
     color: white;
     background: black;
   }
+}
+.backgroundImage{
+  position: relative;
+  object-fit: fill;
+  width: 100vw;
+  height:calc(100vh - 110px);
+}
+
+.companyLogo {
+  display: inline-block;
+  width:154px;
+  margin-top: -15px;
 }
