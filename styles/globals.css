@@ -3,8 +3,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: white;
-  background: black;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
@@ -17,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+
   html {
     color-scheme: dark;
   }
@@ -25,7 +23,7 @@ a {
     color: white;
     background: black;
   }
-}
+
 .backgroundBlur{
   position: fixed;
   z-index: -1;
