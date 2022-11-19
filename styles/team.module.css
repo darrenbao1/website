@@ -49,3 +49,8 @@
     border-color: #232428;
     border-radius: 4px;
   }
+  @media screen and (max-width: 1153px) {
+    .cardContainer {
+      padding-bottom: 10vh;
+    }
+  }
