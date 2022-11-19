@@ -17,24 +17,26 @@ export default function team() {
         },
         {
             name: "@KahiEth",
-            role: "Tech Lead",
+            role: "Software Dev",
             imageUrl: "https://pbs.twimg.com/profile_images/1531689105104326657/a349PPe5_400x400.jpg",
             twitterLink: "https://twitter.com/KahiEth"
         },
         {
             name: "@DbaoEth",
-            role: "Software Engineer",
+            role: "Software Dev",
             imageUrl:"https://pbs.twimg.com/profile_images/1531205481494024194/yU0aSM0S_400x400.jpg",
             twitterLink: "https://twitter.com/DbaoEth"
         },
 
     ]
-    return (<>  <div className={styles.cardContainer}>
+    return (<>  
+     <div className={styles.cardContainer}>
                 {teamMembers.map((member,index) => 
                     <TeamMemberCard member={member} key={index}/>
                 ) }
                 </div> 
-                <picture><img style={{opacity:"0.5",zIndex:"1",position:"fixed"}} className="backgroundImage" src="./backgroundImage.png" alt=""></img></picture>
+                <div className="backgroundBlur">
+                </div>
             </>
         )
 }

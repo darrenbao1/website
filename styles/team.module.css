@@ -1,8 +1,10 @@
 .cardContainer {    
     width:100vw;
-    position: fixed;
+    position:fixed;
+    top:105px;
+    left:0;
     justify-items: center;
-    z-index: 2;
+    z-index: 1;
     display: grid;
     --grid-layout-gap: 10px;
     --grid-column-count: 6;

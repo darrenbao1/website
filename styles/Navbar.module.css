@@ -22,6 +22,15 @@
     display: inline-block;
     margin: 0 3.2rem;
 }
+.navbar_link_active {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid transparent;
+    transition: all .3s;
+    color:orange;
+    border-color: orange;
+}
 .navbar_link {
     text-decoration: none;
     color: #fff;
