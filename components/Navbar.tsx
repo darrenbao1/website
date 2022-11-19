@@ -4,10 +4,15 @@ import { Logo } from "./Logo";
 import EmailLogo from "../public/mail.svg";
 import TwitterLogo from "../public/twitter.svg";
 import HamburgerIcon from "../public/hamburger.svg"
+import CrossIcon from "../public/cross.svg"
 import { useRouter } from "next/router";
+import { Modal } from './Modal';
+import { useState } from 'react';
 export const Navbar = () =>{
     const router = useRouter();
+    const [showModal, setShowModal] = useState(false);
     return (
+        <>
     <div className={styles.navbar}>
         <div className={styles.navbar_items}>
         <div className={router.pathname == "/" ? styles.navbar_logo_active : styles.navbar_logo}>
@@ -36,8 +41,10 @@ export const Navbar = () =>{
                 </a>
             </div>
             {/* show modal here */}
-            <div className={styles.hamburger_menu}><HamburgerIcon/></div>
+            {showModal ? <div className={styles.hamburger_menu} onClick={() => setShowModal(false)}> <CrossIcon/></div>  :  <div className={styles.hamburger_menu} onClick={() => setShowModal(true)}><HamburgerIcon/></div>}
         </div>
     </div>
+    {showModal && <Modal close={() => setShowModal(false)}/>}
+    </>
     )
 }

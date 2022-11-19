@@ -76,10 +76,19 @@
     }
     .navbar_logo {
         position: fixed;
-        top:40px;
+        top:20px;
         left:20px;
         visibility: visible;
 
+    }
+    .navbar_logo_active {
+        position: fixed;
+        top:20px;
+        left:20px;
+        visibility: visible;
+        border-bottom: 1px solid transparent;
+    color:orange;
+    border-color: orange;
     }
     .hamburger_menu {
         visibility: visible;
