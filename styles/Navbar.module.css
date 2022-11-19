@@ -16,24 +16,35 @@
 .navbar_logo {
     display: flex;
     justify-content: center;
-    margin: 0 3.2rem;
+    margin: 0 2rem;
+    border-bottom: 1px solid transparent;
+}
+.navbar_logo:hover {
+    color:orange;
+    border-color: orange;
+}
+.navbar_logo_active {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    border-bottom: 1px solid transparent;
+    color:orange;
+    border-color: orange;
 }
 .navbar_item {
     display: inline-block;
-    margin: 0 3.2rem;
+    margin: 0 2rem;
     
 }
 .navbar_item:hover {
     border-bottom: 1px solid transparent;
-    transition: all .3s;
     color:orange;
     border-color: orange;
 }
 .navbar_item_active {
     display: inline-block;
-    margin: 0 3.2rem;
+    margin: 0 2rem;
     border-bottom: 1px solid transparent;
-    transition: all .3s;
     color:orange;
     border-color: orange;
 }
@@ -42,7 +53,6 @@
     color: inherit;
     padding-bottom: 0.8rem;
     border-bottom: 1px solid transparent;
-    transition: all .3s;
 }
 .navbar_link:hover {
     color:orange;

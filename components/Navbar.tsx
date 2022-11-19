@@ -10,7 +10,7 @@ export const Navbar = () =>{
     return (
     <div className={styles.navbar}>
         <div className={styles.navbar_items}>
-        <div className={styles.navbar_logo}>
+        <div className={router.pathname == "/" ? styles.navbar_logo_active : styles.navbar_logo}>
                 <Link className={styles.navbar_link} href="/" ><Logo/></Link>
             </div>
             <div className={router.pathname == "/products" ? styles.navbar_item_active : styles.navbar_item}>    
@@ -28,11 +28,11 @@ export const Navbar = () =>{
             <Link className={styles.navbar_link} href="/vision">Vision</Link>
             </div>
             <div className={styles.navbar_item}>
-            <Link className={styles.navbar_link} href="https://twitter.com/SeraphLabs" target="_blank"><TwitterLogo/></Link>
+            <Link className={styles.navbar_link} href="https://twitter.com/SeraphLabs" target="_blank" ><div style={{marginTop:"5px"}}><TwitterLogo/></div></Link>
             </div>
             <div className={styles.navbar_item}>
                 <a className={styles.navbar_link} href="mailto:211lp@seraphlabs.io">
-                <EmailLogo/>
+                <div style={{marginTop:"5px"}}><EmailLogo/></div>
                 </a>
             </div>
             {/* show modal here */}
