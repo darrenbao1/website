@@ -1,7 +1,14 @@
+.header {
+  color: orange;
+  font-size: 25px;
+  grid-column: 1/-1;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
 .cardContainer {    
     width:100vw;
     position:fixed;
-    top:105px;
+    top:110px;
     left:0;
     justify-items: center;
     display: grid;
@@ -16,20 +23,20 @@
     );
   
     display: grid;
-    grid-template-columns: repeat(
+    grid-template-columns:  repeat(
       auto-fill,
       minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
     );
     grid-gap: var(--grid-layout-gap);
-    grid-template-rows: max-content;
+    grid-template-rows:  max-content;
     height: fit-content;
     grid-gap: 1rem;
     overflow-y: hidden;
-    padding: 3%;
     margin-right: 8px;
     padding-left: 15vw;
     padding-right: 15vw;
-    height:calc(100vh - 105px);
+    padding-top: 2rem;
+    height:calc(100vh - 110px);
 }
 
 .cardContainer:hover {

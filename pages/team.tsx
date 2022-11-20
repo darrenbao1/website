@@ -31,6 +31,7 @@ export default function team() {
     ]
     return (<>  
      <div className={styles.cardContainer}>
+        <span className={styles.header}>Team</span>
                 {teamMembers.map((member,index) => 
                     <TeamMemberCard member={member} key={index}/>
                 ) }
