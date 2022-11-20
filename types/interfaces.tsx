@@ -14,3 +14,8 @@ export interface page {
     routeLink: string;
     isActive: boolean;
 }
+export interface article {
+    date: string;
+    title: string;
+    link: string;
+}
