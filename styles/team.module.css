@@ -34,12 +34,12 @@
     grid-gap: var(--grid-layout-gap);
     grid-template-rows:  max-content;
     height: fit-content;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     overflow-y: overlay;
     margin-right: 8px;
+    margin-top:2rem ;
     padding-left: 15vw;
     padding-right: 15vw;
-    padding-top: 2rem;
     height:calc(100vh - 110px);
 }
 

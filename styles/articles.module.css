@@ -18,7 +18,7 @@
     padding-bottom: 2rem;
 }
 .article_item{
-  padding-top: 2rem;
+  padding-top: 4rem;
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-column-gap: 5rem;
