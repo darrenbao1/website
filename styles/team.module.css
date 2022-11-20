@@ -41,6 +41,7 @@
     padding-left: 15vw;
     padding-right: 15vw;
     height:calc(100vh - 110px);
+    padding-bottom: 15vh;
 }
 
 .cardContainer:hover {
@@ -59,9 +60,4 @@
     border-style: solid;
     border-color: #232428;
     border-radius: 4px;
-  }
-  @media screen and (max-width: 1153px) {
-    .cardContainer {
-      padding-bottom: 10vh;
-    }
   }
