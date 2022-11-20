@@ -4,11 +4,6 @@ import { article } from "../types/interfaces";
 export default function articles() {
     const articles: article[] = [
         {
-            link:"https://www.notion.so/seraphlabs/Souk-by-Seraph-Labs-37917c343f004af1b6818eeb32326ca0",
-            title:"Souk by Seraph Labs",
-            date:"12.11.2022",
-        },
-        {
             link:"https://seraphlabs.notion.site/Implementing-ERC-3525-through-ERC-2114-for-Games-f1986ac7e4c04c1da536b9109d0af8dd",
             title:"Implementing ERC-3525 through ERC-2114 for Games",
             date:"19.11.2022",
