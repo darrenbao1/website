@@ -37,7 +37,7 @@
     grid-gap: 4rem;
     overflow-y: overlay;
     margin-right: 8px;
-    margin-top:2rem ;
+    padding-top: 2rem;
     padding-left: 15vw;
     padding-right: 15vw;
     height:calc(100vh - 110px);
