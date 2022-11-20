@@ -11,19 +11,19 @@ export default function team() {
         },
         {
             name: "@Jinath0n",
-            role: "Art Director",
+            role: "Creative",
             imageUrl: "https://pbs.twimg.com/profile_images/1527712554952208384/zPSFphKz_400x400.jpg",
             twitterLink: "https://twitter.com/Jinath0n"
         },
         {
             name: "@KahiEth",
-            role: "Software Dev",
+            role: "Dev",
             imageUrl: "https://pbs.twimg.com/profile_images/1531689105104326657/a349PPe5_400x400.jpg",
             twitterLink: "https://twitter.com/KahiEth"
         },
         {
             name: "@DbaoEth",
-            role: "Software Dev",
+            role: "Dev",
             imageUrl:"https://pbs.twimg.com/profile_images/1531205481494024194/yU0aSM0S_400x400.jpg",
             twitterLink: "https://twitter.com/DbaoEth"
         },
