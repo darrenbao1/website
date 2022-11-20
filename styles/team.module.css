@@ -2,7 +2,7 @@
   color: orange;
   font-size: 25px;
   grid-column: 1/-1;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   text-transform: uppercase;
 }
 .cardContainer {    
@@ -13,7 +13,7 @@
     justify-items: center;
     display: grid;
     --grid-layout-gap: 10px;
-    --grid-column-count: 6;
+    --grid-column-count: 5;
     --grid-item--min-width: 200px;
   
     --gap-count: calc(var(--grid-column-count) - 1);
@@ -30,7 +30,7 @@
     grid-gap: var(--grid-layout-gap);
     grid-template-rows:  max-content;
     height: fit-content;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     overflow-y: overlay;
     margin-right: 8px;
     padding-left: 15vw;

@@ -18,7 +18,7 @@ export default function articles() {
     <>
         <div className={styles.container}>
             <div className={styles.header}>Articles</div>
-            <ul style={{listStyle:'none', paddingLeft:"0px"}}>
+            <ul style={{listStyle:'none', paddingLeft:"0px",marginTop:"0",marginBottom:"0"}}>
                 {articles.map((article,index) => (
                     <Link href={article.link}  target="_blank" key={index}>
                     <li className={styles.article_item} >
