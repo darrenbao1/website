@@ -20,8 +20,8 @@ export default function articles() {
             <div className={styles.header}>Articles</div>
             <ul style={{listStyle:'none', paddingLeft:"0px"}}>
                 {articles.map((article,index) => (
-                    <Link href={article.link}  target="_blank">
-                    <li className={styles.article_item} key={index}>
+                    <Link href={article.link}  target="_blank" key={index}>
+                    <li className={styles.article_item} >
                         <div className={styles.article_date}>{article.date}</div>
                         <div className={styles.article_title}>{article.title}</div>
                     </li>
