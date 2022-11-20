@@ -7,6 +7,11 @@ export default function products() {
         imageUrl:"./SoukLogo.png",
         link:"https://www.souk.gg",
     },
+    {
+        name: "Seraphie",
+        imageUrl: "./SeraphieLogo.png",
+        link:"https://www.seraphie.game",
+    },
 
 ];
     return (<>  
