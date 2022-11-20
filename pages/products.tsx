@@ -4,12 +4,12 @@ import { ProductCard } from "../components/ProductCard";
 export default function products() {
     const products: product[] = [{
         name: "Souk",
-        imageUrl:"./SoukLogo.png",
+        imageUrl:"/SoukLogo.png",
         link:"https://www.souk.gg",
     },
     {
         name: "Seraphie",
-        imageUrl: "./SeraphieLogo.png",
+        imageUrl: "/SeraphieLogo.png",
         link:"https://www.seraphie.game",
     },
 
