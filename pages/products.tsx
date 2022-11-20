@@ -4,7 +4,7 @@ import { ProductCard } from "../components/ProductCard";
 export default function products() {
     const products: product[] = [{
         name: "Souk",
-        imageUrl:"./SoukLogo.svg",
+        imageUrl:"./SoukLogo.png",
         link:"https://www.souk.gg",
     }];
     return (<>  
