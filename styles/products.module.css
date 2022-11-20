@@ -4,6 +4,9 @@
     grid-column: 1/-1;
     padding-bottom: 2rem;
     text-transform: uppercase;
+    border-bottom: 1px solid orange;
+    width: 100%;
+    text-align: center;
   }
   .cardContainer {    
       width:100vw;
