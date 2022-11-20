@@ -22,5 +22,10 @@ export abstract class Constants {
             routeLink: "/vision",
             isActive: false,
         },
+        {
+            title:"Advisors",
+            routeLink:"/advisors",
+            isActive:true,
+        },
     ]
 }

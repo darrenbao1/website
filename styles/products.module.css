@@ -16,7 +16,7 @@
       justify-items: center;
       display: grid;
       --grid-layout-gap: 10px;
-      --grid-column-count: 6;
+      --grid-column-count: 5;
       --grid-item--min-width: 300px;
     
       --gap-count: calc(var(--grid-column-count) - 1);
@@ -39,7 +39,7 @@
       padding-left: 15vw;
       padding-right: 15vw;
       padding-top: 2rem;
-      height:calc(100vh - 110px);
+      height: calc(100vh - 110px);
   }
   
   .cardContainer:hover {
