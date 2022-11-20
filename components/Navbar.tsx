@@ -17,7 +17,7 @@ export const Navbar = () =>{
     <div className={styles.navbar}>
         <div className={styles.navbar_items}>
         <div className={router.pathname == "/" ? styles.navbar_logo_active : styles.navbar_logo}>
-                <Link className={styles.navbar_link} href="/" ><Logo/></Link>
+                <Link className={styles.navbar_link} href="/" onClick={() => setShowModal(false)}><Logo/></Link>
             </div>
 
             {Constants.ACTIVE_PAGES.map((page,index) => 
