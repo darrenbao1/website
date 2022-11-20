@@ -2,6 +2,7 @@
     width:200px;
     height:200px;
     border-radius: 5px;
+
 }
 .image {
     margin-left: 55px;
@@ -15,7 +16,12 @@
     font-size: 1rem;
     color:orange;
     margin-top: 1rem;
+    display: none;
+    text-align: center;
 }
-.container:hover{
+.container:hover {
     background-color: rgba(1,1,1,.2);
+}
+.container:hover .name{
+    display: block;
 }
