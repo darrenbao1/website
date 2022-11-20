@@ -31,7 +31,7 @@
     grid-template-rows:  max-content;
     height: fit-content;
     grid-gap: 1rem;
-    overflow-y: hidden;
+    overflow-y: overlay;
     margin-right: 8px;
     padding-left: 15vw;
     padding-right: 15vw;
