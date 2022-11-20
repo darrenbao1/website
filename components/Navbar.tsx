@@ -8,6 +8,7 @@ import CrossIcon from "../public/cross.svg"
 import { useRouter } from "next/router";
 import { Modal } from './Modal';
 import { useState } from 'react';
+import { Constants } from '../types/constants';
 export const Navbar = () =>{
     const router = useRouter();
     const [showModal, setShowModal] = useState(false);
@@ -18,20 +19,13 @@ export const Navbar = () =>{
         <div className={router.pathname == "/" ? styles.navbar_logo_active : styles.navbar_logo}>
                 <Link className={styles.navbar_link} href="/" ><Logo/></Link>
             </div>
-            <div className={router.pathname == "/products" ? styles.navbar_item_active : styles.navbar_item}>    
-            <Link className={styles.navbar_link} href="/products">
-                Products</Link>
-            </div>
-            <div className={router.pathname == "/team" ? styles.navbar_item_active : styles.navbar_item}>
-            <Link className={styles.navbar_link} href="/team">Team</Link>
-            </div>
-            <div className={router.pathname == "/articles" ? styles.navbar_item_active : styles.navbar_item}>
-            <Link className={styles.navbar_link} href="/articles">Articles</Link>
-            </div>
 
-            <div className={router.pathname == "/vision" ? styles.navbar_item_active : styles.navbar_item}>
-            <Link className={styles.navbar_link} href="/vision">Vision</Link>
-            </div>
+            {Constants.ACTIVE_PAGES.map((page,index) => 
+                (page.isActive && <div className={router.pathname == page.routeLink ? styles.navbar_item_active : styles.navbar_item} key={index}>    
+                <Link className={styles.navbar_link} href={page.routeLink}>
+                    {page.title}</Link>
+                </div>)
+            )}
             <div className={styles.navbar_item}>
             <Link className={styles.navbar_link} href="https://twitter.com/SeraphLabs" target="_blank" ><div style={{marginTop:"5px"}}><TwitterLogo/></div></Link>
             </div>
@@ -40,7 +34,6 @@ export const Navbar = () =>{
                 <div style={{marginTop:"5px"}}><EmailLogo/></div>
                 </a>
             </div>
-            {/* show modal here */}
             {showModal ? <div className={styles.hamburger_menu} onClick={() => setShowModal(false)}> <CrossIcon/></div>  :  <div className={styles.hamburger_menu} onClick={() => setShowModal(true)}><HamburgerIcon/></div>}
         </div>
     </div>

@@ -9,3 +9,8 @@ export interface product {
     imageUrl:string;
     link:string;
 }
+export interface page {
+    title: string;
+    routeLink: string;
+    isActive: boolean;
+}

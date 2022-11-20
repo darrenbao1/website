@@ -6,7 +6,9 @@ export default function products() {
         name: "Souk",
         imageUrl:"./SoukLogo.png",
         link:"https://www.souk.gg",
-    }];
+    },
+
+];
     return (<>  
         <div className={styles.cardContainer}>
            <span className={styles.header}>Products</span>
@@ -18,5 +20,4 @@ export default function products() {
                    </div>
                </>
            )
-    //return <picture><img className="backgroundImage" src="./backgroundImage.png" alt=""></img></picture>
 }
