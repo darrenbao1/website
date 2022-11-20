@@ -7,15 +7,12 @@ interface Props {
 }
 export const ProductCard = (props:Props) => {
     return ( <Link className={styles.container}  href={props.product.link} target="_blank">
-
-        {/* <picture> */}
         <Image src={props.product.imageUrl} alt= ""
             width={200}
             height={200}
             className={styles.image}
             priority={true}
-            />
-             {/* <img className={styles.image} src={props.product.imageUrl}alt=""></img></picture> */}
+            />   
         <div className={styles.name}>{props.product.name}</div>
     </Link>)
 
