@@ -4,3 +4,8 @@ export interface teamMember {
     imageUrl: string;
     twitterLink: string;
 }
+export interface product {
+    name: string;
+    imageUrl:string;
+    link:string;
+}
