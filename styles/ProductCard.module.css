@@ -5,7 +5,7 @@
 
 }
 .image {
-    margin-left: 77.5px;
+    margin-left: 82.5px;
     margin-top: 45px;
     width: 135px;
     height:180px;
@@ -13,7 +13,7 @@
 }
 .name {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color:orange;
     margin-top: 1rem;
     display: none;
