@@ -20,7 +20,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
   <div style={{position:"fixed"}}>
-    {isDarkMode ? "dark mode" : "light mode"}
     <Head>
     <title>Seraph Labs</title>
     <link rel="icon" href={isDarkMode ? "/favicon.ico" : "/faviconLight.png"} />
