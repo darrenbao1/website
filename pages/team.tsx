@@ -17,13 +17,13 @@ export default function team() {
         },
         {
             name: "@KahiEth",
-            role: "Dev",
+            role: "Smart Contract Dev",
             imageUrl: "https://pbs.twimg.com/profile_images/1531689105104326657/a349PPe5_400x400.jpg",
             twitterLink: "https://twitter.com/KahiEth"
         },
         {
             name: "@DbaoEth",
-            role: "Dev",
+            role: "FullStack Dev",
             imageUrl:"https://pbs.twimg.com/profile_images/1531205481494024194/yU0aSM0S_400x400.jpg",
             twitterLink: "https://twitter.com/DbaoEth"
         },
