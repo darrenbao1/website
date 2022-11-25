@@ -12,6 +12,11 @@ export default function products() {
         imageUrl: "/SeraphieLogo.png",
         link:"https://www.seraphie.game",
     },
+    {
+        name:"Starkpilled",
+        imageUrl: "/Starkpilled.PNG",
+        link:"https://starkpill.clinic",
+    }
 
 ];
     return (<>  
