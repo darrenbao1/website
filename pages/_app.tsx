@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Navbar } from '../components/Navbar'
-import { BackgroundVideo } from '../components/BackgroundVideo'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
+import { Background } from '../components/Background'
 
 export default function App({ Component, pageProps }: AppProps) {
   const [isDarkMode,setIsDarkMode] = useState(true);
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <link rel="icon" href={isDarkMode ? "/favicon.ico" : "/faviconLight.png"} />
     </Head>
   <Navbar/>
-  <BackgroundVideo/>
+  <Background/>
   <Component {...pageProps} />
   </div>)
 }
