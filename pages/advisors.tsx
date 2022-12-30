@@ -16,12 +16,6 @@ export default function advisors() {
 			twitterLink: "",
 		},
 		{
-			name: "momo",
-			role: "Co-Founder | Tulip Protocol",
-			imageUrl: "momo.jpeg",
-			twitterLink: "",
-		},
-		{
 			name: "fjvdb",
 			role: "Partner | Chad Capital",
 			imageUrl: "fj.jpeg",
