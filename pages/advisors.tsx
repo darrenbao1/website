@@ -16,12 +16,6 @@ export default function advisors() {
 			twitterLink: "",
 		},
 		{
-			name: "fjvdb",
-			role: "Partner | Chad Capital",
-			imageUrl: "fj.jpeg",
-			twitterLink: "",
-		},
-		{
 			name: "Sherwin Lee",
 			role: "Founder | QCP Soteria Node",
 			imageUrl: "sherwin.jpeg",
