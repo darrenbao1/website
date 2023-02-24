@@ -31,6 +31,13 @@ export default function team() {
 				"https://pbs.twimg.com/profile_images/1619129855462998018/XQ2m5vak_400x400.jpg",
 			twitterLink: "https://twitter.com/DbaoEth",
 		},
+		{
+			name: "@Ming33eth",
+			role: "Junior Dev",
+			imageUrl:
+				"https://pbs.twimg.com/profile_images/1626540309126729728/hV_kZYJO_400x400.jpg",
+			twitterLink: "https://twitter.com/ming33eth",
+		},
 	];
 	return (
 		<>
