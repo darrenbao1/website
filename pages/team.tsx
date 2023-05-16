@@ -7,7 +7,7 @@ export default function team() {
 			name: "@211lp",
 			role: "Founder",
 			imageUrl:
-				"https://pbs.twimg.com/profile_images/1526410355152302080/KmEp1Myd_400x400.jpg",
+				"https://pbs.twimg.com/profile_images/1655885149152874498/r-ciy05w_400x400.jpg",
 			twitterLink: "https://twitter.com/211lp",
 		},
 		{
