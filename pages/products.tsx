@@ -16,7 +16,7 @@ export default function products() {
 			category: "Digital Avatar Collection",
 			about:
 				"Pioneering the use of ERC-2114, Starkpilled is a PFP collection that celebrates the StarkNet ecosystem. Avatars (Pills) are able to equip, unequip traits, and engage in the world of on-chain reputation by 'faming' or 'defaming' other Pills.",
-			imageUrl: "/Starkpilled.png",
+			imageUrl: "/Starkpilled.PNG",
 			link: "https://starkpill.clinic",
 		},
 		{
