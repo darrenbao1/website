@@ -6,6 +6,8 @@ export interface teamMember {
 }
 export interface product {
 	name: string;
+	category: string;
+	about: string;
 	imageUrl: string;
 	link: string;
 }
